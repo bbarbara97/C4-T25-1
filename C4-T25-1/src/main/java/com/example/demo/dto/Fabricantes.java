@@ -17,7 +17,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 @Table(name="Fabricantes")
 public class Fabricantes {
-		//Atributos de entidad cliente
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)//busca ultimo valor e incrementa desde id final de db
 		private Long codigo;

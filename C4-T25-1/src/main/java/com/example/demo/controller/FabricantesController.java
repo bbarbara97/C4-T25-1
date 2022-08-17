@@ -47,7 +47,7 @@ public class FabricantesController {
 	}
 
 	@PutMapping("/fabricantes/{codigo}")
-	public Fabricantes actualizarVideo(@PathVariable(name="codigo")Long codigo,@RequestBody Fabricantes fabricantes) {
+	public Fabricantes actualizarFabricante(@PathVariable(name="codigo")Long codigo,@RequestBody Fabricantes fabricantes) {
 
 		Fabricantes fabricantes_seleccionado;
 		Fabricantes fabricantes_actualizado;
